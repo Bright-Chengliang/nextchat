@@ -558,14 +558,16 @@ export const EXCLUDE_VISION_MODEL_REGEXES = [/claude-3-5-haiku-20241022/];
 //   "ernie-tiny-8k",
 // ];
 
-// const bytedanceModels = [
-//   "Doubao-lite-4k",
-//   "Doubao-lite-32k",
-//   "Doubao-lite-128k",
-//   "Doubao-pro-4k",
-//   "Doubao-pro-32k",
-//   "Doubao-pro-128k",
-// ];
+const bytedanceModels = [
+  "Doubao-lite-4k",
+  "Doubao-lite-32k",
+  "Doubao-lite-128k",
+  "Doubao-pro-4k",
+  "Doubao-pro-32k",
+  "Doubao-pro-128k",
+  "deepseek-v3-250324",
+  "deepseek-r1-250120"
+];
 
 // const alibabaModes = [
 //   "qwen-turbo",
@@ -707,17 +709,17 @@ export const DEFAULT_MODELS = [
   //     sorted: 5,
   //   },
   // })),
-  // ...bytedanceModels.map((name) => ({
-  //   name,
-  //   available: true,
-  //   sorted: seq++,
-  //   provider: {
-  //     id: "bytedance",
-  //     providerName: "ByteDance",
-  //     providerType: "bytedance",
-  //     sorted: 6,
-  //   },
-  // })),
+  ...bytedanceModels.map((name) => ({
+    name,
+    available: true,
+    sorted: seq++,
+    provider: {
+      id: "bytedance",
+      providerName: "ByteDance",
+      providerType: "bytedance",
+      sorted: 6,
+    },
+  })),
   // ...alibabaModes.map((name) => ({
   //   name,
   //   available: true,
