@@ -134,14 +134,15 @@ export const getServerSideConfig = () => {
 
   const disableGPT4 = !!process.env.DISABLE_GPT4;
   let customModels = process.env.CUSTOM_MODELS ?? "";
-  let defaultModel = process.env.DEFAULT_MODEL ?? "gpt-4o-mini";
+  let defaultModel = process.env.DEFAULT_MODEL ?? "";
   let visionModels = process.env.VISION_MODELS ?? "";
 
   if (disableGPT4) {
-    if (customModels) customModels += ",";
-    customModels += DEFAULT_MODELS.filter((m) => isGPT4Model(m.name))
-      .map((m) => "-" + m.name)
-      .join(",");
+    // 由于我们已经清空了 DEFAULT_MODELS，这部分逻辑不再需要
+    // if (customModels) customModels += ",";
+    // customModels += DEFAULT_MODELS.filter((m) => isGPT4Model(m.name))
+    //   .map((m) => "-" + m.name)
+    //   .join(",");
     if (defaultModel && isGPT4Model(defaultModel)) {
       defaultModel = "";
     }
