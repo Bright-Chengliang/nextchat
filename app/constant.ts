@@ -559,12 +559,12 @@ export const EXCLUDE_VISION_MODEL_REGEXES = [/claude-3-5-haiku-20241022/];
 // ];
 
 const bytedanceModels = [
-  "Doubao-lite-4k",
-  "Doubao-lite-32k",
-  "Doubao-lite-128k",
-  "Doubao-pro-4k",
-  "Doubao-pro-32k",
-  "Doubao-pro-128k",
+  // "Doubao-lite-4k",
+  // "Doubao-lite-32k",
+  // "Doubao-lite-128k",
+  // "Doubao-pro-4k",
+  // "Doubao-pro-32k",
+  // "Doubao-pro-128k",
   "deepseek-v3-250324",
   "deepseek-r1-250120"
 ];
