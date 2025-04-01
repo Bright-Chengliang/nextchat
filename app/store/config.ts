@@ -60,20 +60,20 @@ export const DEFAULT_CONFIG = {
   dontShowMaskSplashScreen: false, // dont show splash screen when create chat
   hideBuiltinMasks: false, // dont add builtin masks
 
-  customModels: "",
+  customModels: "deepseek-v3-250324",
   models: DEFAULT_MODELS as any as LLMModel[],
 
   modelConfig: {
     model: "deepseek-v3-250324" as ModelType,
     providerName: "ByteDance" as ServiceProvider,
-    temperature: 0.5,
+    temperature: 0.6,
     top_p: 1,
-    max_tokens: 4000,
+    max_tokens: 8000,
     presence_penalty: 0,
     frequency_penalty: 0,
     sendMemory: true,
-    historyMessageCount: 4,
-    compressMessageLengthThreshold: 1000,
+    historyMessageCount: 10,
+    compressMessageLengthThreshold: 5000,
     compressModel: "deepseek-v3-250324",
     compressProviderName: "ByteDance",
     enableInjectSystemPrompts: true,
