@@ -60,7 +60,7 @@ export const DEFAULT_CONFIG = {
   dontShowMaskSplashScreen: false, // dont show splash screen when create chat
   hideBuiltinMasks: false, // dont add builtin masks
 
-  customModels: "deepseek-v3-250324",
+  customModels: "",
   models: DEFAULT_MODELS as any as LLMModel[],
 
   modelConfig: {
