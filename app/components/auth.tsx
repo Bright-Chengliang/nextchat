@@ -176,7 +176,7 @@ function TopBanner() {
               trackSettingsPageGuideToCPaymentClick();
             }}
           >
-            {Locale.Settings.Access.SaasStart.ChatNow}
+            {"立刻对话"}
             <Arrow style={{ marginLeft: "4px" }} />
           </a>
         </span>
