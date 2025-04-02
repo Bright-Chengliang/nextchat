@@ -291,13 +291,14 @@ const sk: PartialLocaleType = {
       NoAccess: "Zadajte API kľúč na skontrolovanie zostatku",
     },
     Access: {
-      SaasStart: {
-        Title: "Použite NextChat AI",
-        Label: "(Najvýhodnejšie riešenie)",
-        SubTitle:
-          "Oficiálne udržiavané NextChat, pripravené na použitie bez konfigurácie, podporuje najnovšie veľké modely ako OpenAI o1, GPT-4o a Claude-3.5",
-        ChatNow: "Chatovať teraz",
-      },
+      // SaasStart: {
+// Title: "Použite NextChat AI",
+// Label: "(Najvýhodnejšie riešenie)",
+// SubTitle:
+// "Oficiálne udržiavané NextChat, pripravené na použitie bez konfigurácie, podporuje najnovšie veľké modely ako OpenAI o1, GPT-4o a Claude-3.5",
+// ChatNow: "Chatovať teraz",
+// },
+
 
       AccessCode: {
         Title: "Prístupový kód",

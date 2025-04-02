@@ -294,13 +294,13 @@ const bn: PartialLocaleType = {
     },
 
     Access: {
-      SaasStart: {
-        Title: "NextChat AI ব্যবহার করুন",
-        Label: "(সেরা মূল্যসাশ্রয়ী সমাধান)",
-        SubTitle:
-          "NextChat কর্তৃক অফিসিয়াল রক্ষণাবেক্ষণ, শূন্য কনফিগারেশন ব্যবহার শুরু করুন, OpenAI o1, GPT-4o, Claude-3.5 সহ সর্বশেষ বড় মডেলগুলি সমর্থন করে",
-        ChatNow: "এখনই চ্যাট করুন",
-      },
+      // SaasStart: {
+      //   Title: "NextChat AI ব্যবহার করুন",
+      //   Label: "(সেরা মূল্যসাশ্রয়ী সমাধান)",
+      //   SubTitle:
+      //     "NextChat কর্তৃক অফিসিয়াল রক্ষণাবেক্ষণ, শূন্য কনফিগারেশন ব্যবহার শুরু করুন, OpenAI o1, GPT-4o, Claude-3.5 সহ সর্বশেষ বড় মডেলগুলি সমর্থন করে",
+      //   ChatNow: "এখনই চ্যাট করুন",
+      // },
 
       AccessCode: {
         Title: "অ্যাক্সেস পাসওয়ার্ড",

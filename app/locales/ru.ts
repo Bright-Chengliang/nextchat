@@ -296,13 +296,14 @@ const ru: PartialLocaleType = {
     },
 
     Access: {
-      SaasStart: {
-        Title: "Используйте NextChat AI",
-        Label: "(Самое экономичное решение)",
-        SubTitle:
-          "Официально поддерживается NextChat, готов к использованию без настройки, поддерживает последние крупные модели, такие как OpenAI o1, GPT-4o и Claude-3.5",
-        ChatNow: "Начать чат",
-      },
+      // SaasStart: {
+// Title: "Используйте NextChat AI",
+// Label: "(Самое экономичное решение)",
+// SubTitle:
+// "Официально поддерживается NextChat, готов к использованию без настройки, поддерживает последние крупные модели, такие как OpenAI o1, GPT-4o и Claude-3.5",
+// ChatNow: "Начать чат",
+// },
+
 
       AccessCode: {
         Title: "Пароль доступа",

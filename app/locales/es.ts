@@ -305,13 +305,14 @@ const es: PartialLocaleType = {
     },
 
     Access: {
-      SaasStart: {
-        Title: "Use NextChat AI",
-        Label: "(The most cost-effective solution)",
-        SubTitle:
-          "Officially maintained by NextChat, zero configuration ready to use, supports the latest large models like OpenAI o1, GPT-4o, and Claude-3.5",
-        ChatNow: "Chat Now",
-      },
+      // SaasStart: {
+// Title: "Use NextChat AI",
+// Label: "(The most cost-effective solution)",
+// SubTitle:
+// "Officially maintained by NextChat, zero configuration ready to use, supports the latest large models like OpenAI o1, GPT-4o, and Claude-3.5",
+// ChatNow: "Chat Now",
+// },
+
 
       AccessCode: {
         Title: "Contraseña de acceso",

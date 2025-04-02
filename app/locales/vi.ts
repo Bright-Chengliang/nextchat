@@ -293,13 +293,14 @@ const vi: PartialLocaleType = {
     },
 
     Access: {
-      SaasStart: {
-        Title: "Sử dụng NextChat AI",
-        Label: "(Giải pháp tiết kiệm chi phí nhất)",
-        SubTitle:
-          "Được NextChat chính thức duy trì, sẵn sàng sử dụng mà không cần cấu hình, hỗ trợ các mô hình lớn mới nhất như OpenAI o1, GPT-4o và Claude-3.5",
-        ChatNow: "Chat ngay",
-      },
+      // SaasStart: {
+// Title: "Sử dụng NextChat AI",
+// Label: "(Giải pháp tiết kiệm chi phí nhất)",
+// SubTitle:
+// "Được NextChat chính thức duy trì, sẵn sàng sử dụng mà không cần cấu hình, hỗ trợ các mô hình lớn mới nhất như OpenAI o1, GPT-4o và Claude-3.5",
+// ChatNow: "Chat ngay",
+// },
+
 
       AccessCode: {
         Title: "Mật khẩu truy cập",
