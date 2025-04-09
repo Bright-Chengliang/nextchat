@@ -501,32 +501,6 @@ export const EXCLUDE_VISION_MODEL_REGEXES = [/claude-3-5-haiku-20241022/];
 //   "o3-mini",
 // ];
 
-// const googleModels = [
-//   "gemini-1.0-pro", // Deprecated on 2/15/2025
-//   "gemini-1.5-pro-latest",
-//   "gemini-1.5-pro",
-//   "gemini-1.5-pro-002",
-//   "gemini-1.5-pro-exp-0827",
-//   "gemini-1.5-flash-latest",
-//   "gemini-1.5-flash-8b-latest",
-//   "gemini-1.5-flash",
-//   "gemini-1.5-flash-8b",
-//   "gemini-1.5-flash-002",
-//   "gemini-1.5-flash-exp-0827",
-//   "learnlm-1.5-pro-experimental",
-//   "gemini-exp-1114",
-//   "gemini-exp-1121",
-//   "gemini-exp-1206",
-//   "gemini-2.0-flash",
-//   "gemini-2.0-flash-exp",
-//   "gemini-2.0-flash-lite-preview-02-05",
-//   "gemini-2.0-flash-thinking-exp",
-//   "gemini-2.0-flash-thinking-exp-1219",
-//   "gemini-2.0-flash-thinking-exp-01-21",
-//   "gemini-2.0-pro-exp",
-//   "gemini-2.0-pro-exp-02-05",
-// ];
-
 // const anthropicModels = [
 //   "claude-instant-1.2",
 //   "claude-2.0",
@@ -617,6 +591,36 @@ const deepseekModels = ["deepseek-chat", "deepseek-coder", "deepseek-reasoner"];
 //   "grok-2-vision-latest",
 // ];
 
+const googleModels = [
+  // "gemini-1.0-pro", // Deprecated on 2/15/2025
+  // "gemini-1.5-pro-latest",
+  // "gemini-1.5-pro",
+  // "gemini-1.5-pro-002",
+  // "gemini-1.5-pro-exp-0827",
+  // "gemini-1.5-flash-latest",
+  // "gemini-1.5-flash-8b-latest",
+  // "gemini-1.5-flash",
+  // "gemini-1.5-flash-8b",
+  // "gemini-1.5-flash-002",
+  // "gemini-1.5-flash-exp-0827",
+  // "learnlm-1.5-pro-experimental",
+  // "gemini-exp-1114",
+  // "gemini-exp-1121",
+  // "gemini-exp-1206",
+  // "gemini-2.0-flash",
+  // "gemini-2.0-flash-exp",
+  // "gemini-2.0-flash-lite-preview-02-05",
+  // "gemini-2.0-flash-thinking-exp",
+  // "gemini-2.0-flash-thinking-exp-1219",
+  // "gemini-2.0-flash-thinking-exp-01-21",
+  // "gemini-2.0-pro-exp",
+  // "gemini-2.0-pro-exp-02-05",
+  "gemini-1.5-pro",
+  "gemini-2.0-flash",
+  "gemini-2.5-pro-preview-03-25",
+
+];
+
 // const chatglmModels = [
 //   "glm-4-plus",
 //   "glm-4-0520",
@@ -678,17 +682,17 @@ export const DEFAULT_MODELS = [
   //     sorted: 2,
   //   },
   // })),
-  // ...googleModels.map((name) => ({
-  //   name,
-  //   available: true,
-  //   sorted: seq++,
-  //   provider: {
-  //     id: "google",
-  //     providerName: "Google",
-  //     providerType: "google",
-  //     sorted: 3,
-  //   },
-  // })),
+  ...googleModels.map((name) => ({
+    name,
+    available: true,
+    sorted: seq++,
+    provider: {
+      id: "google",
+      providerName: "Google",
+      providerType: "google",
+      sorted: 3,
+    },
+  })),
   // ...anthropicModels.map((name) => ({
   //   name,
   //   available: true,
